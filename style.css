@@ -33,29 +33,72 @@ h1, h2 {
     justify-content: space-between;
 }
 
-.line {
+hr {
+    margin-top: 30px;
     border: 1px solid #C2C0C0;
-    position: relative;
-    top: 20px;
 }
 
-.text_about {
-    position: relative;
-    top: 20px;
+.text-about {
+    margin-top: 20px;
 }
 
-.info_about {
-    position: relative;
-    top: 40px;
-    border: 1px solid #5A9645;
-    height: 140px;
-    border-radius: 7px;
+.table-info {
+    margin-top: 40px;
     display: flex;
-}
-
-.info_about_up {
     border: 1px solid #5A9645;
-    width: 370px;
-    height: 30px;
     border-radius: 7px;
 }
+
+.table-left,
+.table-right {
+    width: 50%;
+}
+
+.table-left {
+    border-right: 1px solid #5A9645;
+}
+
+.table-right {
+    border-left: 1px solid #5A9645;
+}
+
+.table-header {
+    border-bottom: 1px solid #5A9645;
+    text-align: center;
+    padding: 5px;
+    font-weight: 700;
+    color: #5A9645;
+}
+
+.table-content {
+    display: flex;
+    flex-grow: 1;
+    padding: 20px;
+    align-items: center;
+    justify-content: center;
+}
+
+.table-list {
+    width: fit-content;
+    margin: 0;
+}
+
+.table-link {
+    color: black;
+    text-decoration: none;
+}
+
+.table-link:hover {
+    color: #5A9645;
+}
+
+.title {
+    background: #5A9645;
+    border-radius: 7px;
+    padding: 10px;
+    margin-top: 70px;
+    text-align: center;
+    color: white;
+    font-weight: 700;
+}
+
