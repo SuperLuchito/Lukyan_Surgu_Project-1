@@ -124,7 +124,7 @@ hr {
     border: #5A9645;
     border-radius: 7px;
     padding: 10px 30px;
-    transition: box-shadow 0.5s ease;
+    transition: transform 0.5s ease;
     width: 50px;
     height: 90px;
 }
@@ -138,6 +138,7 @@ hr {
 .tech-picture:hover {
     cursor: pointer;
     box-shadow: 0 4px 20px 0 #5A9645;
+    transform: scale(1.15);
 }
 
 .feedback {
