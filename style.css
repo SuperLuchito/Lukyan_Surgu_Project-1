@@ -43,12 +43,13 @@ h1, h2 {
 
 hr {
     margin-top: 30px;
+    margin-bottom: 20px;
     border: 1px solid #C2C0C0;
 }
 
-.text-about {
+/* .text-about {
     margin-top: 20px;
-}
+} */
 
 .table-info {
     margin-top: 40px;
@@ -149,11 +150,11 @@ hr {
 
 .feedback-div {
     display: flex;
-    justify-content: space-between;
+    gap: 20px;
 }
 
 .feedback-input {
-    width: 363px;
+    flex-grow: 1;
     border-radius: 5px;
     border: 1px solid #C1C1C1;
     padding: 9px 14px;
